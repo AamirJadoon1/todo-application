@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Barriecito&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+
+body{
+    background: #bb3366 !important;
+}
+.container{
+    max-width: 400px !important;
+}
+
+.header-font{
+    font-family: 'Barriecito',
+    cursive;
+    letter-spacing: 4px;
+}
+
+input[type=text],
+input[type=text]:focus{
+    color: #fff;
+    border: none;
+    background: rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+}
+
+.todos li{
+    background: #423a6f;
+    font-family: 'Josefin Sans',
+    sans-serif;
+}
+
+
+
+.delete{
+    cursor: pointer;
+}
+
+.filtered {
+    display: none;
+}
